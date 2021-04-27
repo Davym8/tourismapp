@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tourismapp</string>
+    <string name="popular_destinations">Popular Destinations</string>
+    <string name="awesome_places">Awesome places</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_row_cycler">image row cycler</string>
+    <string name="holiday_name">Holiday Name</string>
+    <string name="holidayimage">holidayimage</string>
+    <string name="location_advertisement">Location advertisement</string>
+    <string name="location_name">Location Name</string>
+    <string name="location_location_location">Location Location Location</string>
+    <string name="todo">TODO</string>
+    <string name="travel_tips">Travel Tips</string>
+</resources>

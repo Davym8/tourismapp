@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:clickable="true"
+    android:focusable="true"
+    android:outlineAmbientShadowColor="#00FFFFFF"
+    tools:context=".LocationFragment"
+    tools:targetApi="p">
+
+
+    <ImageView
+        android:id="@+id/fragmentimage"
+        android:layout_width="match_parent"
+        android:layout_height="295dp"
+        android:contentDescription="@string/holidayimage"
+        android:src="@drawable/japan"
+        />
+
+    <TextView
+        android:id="@+id/fragmentlocationname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:text="@string/holiday_name"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/fragmentdescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/location_advertisement"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/fragmenttraveltips"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="455dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/travel_tips"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+</FrameLayout>
